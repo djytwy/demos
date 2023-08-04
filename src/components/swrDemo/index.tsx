@@ -15,7 +15,7 @@ interface responseProps {
     method: string
 }
 
-const fethcher: Fetcher<responseProps, requestProps> = ({url, method, params, body}) => {
+const fethcher: Fetcher<responseProps, requestProps> = async ({url, method, params, body}) => {
     return fetch(
         url,
         {
