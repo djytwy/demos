@@ -12,5 +12,41 @@
     'npm ERR! If you already provided a one-time password then it is likely that you either typoed\n' +
     'npm ERR! it, or it timed out. Please try again.\n' +
 看到这个错误需首先要到npm的官网去把2FA打开：
-![Alt text](image.png)
+![2FA](https://github.com/djytwy/demos/assets/30172796/6dc88d22-b0f1-47f2-be29-06c873da7de4)
+设置：
+![setting](https://github.com/djytwy/demos/assets/30172796/0a4881bb-549b-4324-9d0b-205fab299a5e)
+
+设置 npm为 auth-only:
+npm profile enable-2fa auth-only
+查看设置是否成功:
+npm profile get
+
+┌─────────────────┬─────────────────────────────┐
+│ name            │ djytwy                      │
+├─────────────────┼─────────────────────────────┤
+│ email           │ djytwy@gmail.com (verified) │
+├─────────────────┼─────────────────────────────┤
+│ two-factor auth │ auth-only                   │
+├─────────────────┼─────────────────────────────┤
+│ fullname        │                             │
+├─────────────────┼─────────────────────────────┤
+│ homepage        │                             │
+├─────────────────┼─────────────────────────────┤
+│ freenode        │                             │
+├─────────────────┼─────────────────────────────┤
+│ twitter         │                             │
+├─────────────────┼─────────────────────────────┤
+│ github          │ djytwy                      │
+├─────────────────┼─────────────────────────────┤
+│ created         │ 2023-01-18T07:18:17.395Z    │
+├─────────────────┼─────────────────────────────┤
+│ updated         │ 2023-09-18T10:27:21.579Z    │
+└─────────────────┴─────────────────────────────┘
+
+然后先在目录中进行构建：
+npm run build
+打出dist目录
+
+最后发布：
+npm run release   
 ```
