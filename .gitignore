@@ -34,4 +34,4 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-/src/components/particleDemo
+/src/components/particleDemo/_demo.js
