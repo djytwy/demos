@@ -9,7 +9,7 @@ const payload = {
 };
 const token = jwt.sign(payload, secretKey, {
     algorithm: 'RS256',
-    expiresIn: '7d',
+    expiresIn: '60',
     keyid: 'ambrus_account_center'
 });
 
