@@ -1,0 +1,41 @@
+const jwt = require("jsonwebtoken")
+
+const secretKey = `-----BEGIN PRIVATE KEY-----
+MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC0eHeL2+Sbx5yN
+dVCT0RU7jtjWqjRHc6b2QeFdswLaYDGrEy2vVMk+uNw8z0Qj9bQJh4rG1CD+C2EV
+ohcJFWjUjGEVqOtuePGDgbGUbhG1jOI7MzD7PTixBEDOZw3uJSLpBsHb8wT43y3J
+9XUzsHWwFU3PlumgNTw5OqAEC7mtoFXgiEacyDRZW0QPDZmct8YmJKbcuGVkLCbT
+C/XFjSgnKdd4H4XoNRUoJDhHIvY09Vf4YuDKgVov9xFVCQs+N7SXs7wUU5Gir4mV
+EzO24IAqn78MVb+uEkAfKeX8mZNlYGiyVx+YR2ckQqXn3gGWbtlItoL6N8IRLnKk
+Ah+/3UJHAgMBAAECggEATYc7BBAxA2MbNAHj3byCfJV/Pajc0J00arIemNwgK6QL
+ckzI4XtxAMr1ggIgabpR344k5gmXKsvEp0B82OAjqrursVxh15GJX09F9Ffcr7uY
+LIpvTl8cjZ8gIAtRhq7ZcnX+rfiWeDuYNhyGfvAdfsmIJdfVAYgdGRDAUTygRZ/U
+0DBbYcsZdSalREvCvEHiAgxm3S2/e6PyxX+3ePugiifKnEerTyR4A3L25IRNJML1
+U1JJj6M1Drt+O7ca9E9vyG4XgOZsQGANksno5pNdy1Bh+x2m1HwR/D+jHma+xoPG
+iPO4p1QPYAjLum2342bL05me/34hjMKfAuYlIS+agQKBgQDasZepVS86hKEFiI7K
+cbl0/9Y2KTVGvqahYEhJJrEjfnY2oEuiDPz6eaoG/BCKKM2IGhcFEurjh8G39QCB
+gFhknVEl3/UY+NHqs1EthKPOzLeVlnu+nDRu0BRv/9ImewT3WE+XJkIqyhVSKppa
+A2poiPykyB8pEFbhRzm9sAzPpwKBgQDTQakYDMfY5PdmIBBuT48p4yk+ANmyHrKw
+2CnQg0MCFB8d8RpvpHIkd1j7fItcKWWtzdLXt4tdKUkSYqh5om0yQ4wa83uvbnyV
+Dc7wWc6FQqUZes0qYu4bk45wGEuR92jWCgviCWjsXudecIaTNt09NQK24uMapBft
+106zy1tMYQKBgQCyfJ87JLsXF4gT7BAeShMC2osKSTeiNZfpvZtBmMKaJWx1yP3x
+lIgkJYgPi0o0eHjGzARdr8LlULdaXCu9hfKeq4a/UrnHV8x7sT5f2BGZhpuPCvKT
+7wkcJ9eGUVRC88Rp2zmaMy9tnOEp3nt7W65NAwCvvGUyLpO56VfG6RiLoQKBgQCk
+yKLNT6rTVEZmMryeTxCs67RP2Pn2Jlvb9cEoFDtAc9GR2W91hiBCsZWHFS7fRKs7
+V0EPYuwiTwHghXRE7J2gh2/R1fq0bMpgudShRmwBJmsB5PgECAcTG5YPeeP4h7QO
+wOdj+VMOjTiMQdm3GySXibIEVhYvwa+opjmNpSIiAQKBgCa3lrfWB8PdG4M9gHfE
+SZdzovf25kwW4WJPIsMwWujqz0sRgGJYonTOq8sCtjQqn9sliuYpZYj7ySympZzf
+VyKTddHuoNhQ3NoFObdFJzyttSdEeYQOe+MaRcDuHOBny3MUQ7ShX6Vs6vkapXB8
+zeJi3ME78XEhcA0zzeorUj9p
+-----END PRIVATE KEY-----`;
+
+const payload = {
+    sub: 'uuid',
+};
+const token = jwt.sign(payload, secretKey, {
+    algorithm: 'RS256',
+    expiresIn: '7d',
+    keyid: 'ambrus_account_center'
+});
+
+console.log(token);
