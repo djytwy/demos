@@ -1,6 +1,6 @@
 const host_url = process.env.NEXT_PUBLIC_HOST as string;
 
-export class FetchService {
+class FetchService {
     async get<T>(url: string, params = {}, defaultHost = true): Promise<T> {
         const _url = defaultHost ? `${host_url}${url}?` : url;
         console.log('fetch GET queryparams: ', params);
