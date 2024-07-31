@@ -3,6 +3,7 @@ import BorderDemo from '@/components/borderDemo'
 import SwrDemo from '@/components/swrDemo'
 import ScrollBarDemo from '@/components/scrollBarDemo'
 import FetchControllerDemo from '@/components/fetchControllerDemo'
+import Link from 'next/link'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <ScrollBarDemo></ScrollBarDemo>
       <p>FetchControllerDemo:</p>
       <FetchControllerDemo></FetchControllerDemo>
+      <Link href="/swrRequestDemo">swrRequestDemo</Link>
     </div>
   )
 }
