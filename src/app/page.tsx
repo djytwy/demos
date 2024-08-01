@@ -3,6 +3,7 @@ import BorderDemo from '@/components/borderDemo'
 import SwrDemo from '@/components/swrDemo'
 import ScrollBarDemo from '@/components/scrollBarDemo'
 import FetchControllerDemo from '@/components/fetchControllerDemo'
+import MergeDemo from '@/components/mergeDemo'
 import Link from 'next/link'
 
 export default function Home() {
@@ -19,6 +20,8 @@ export default function Home() {
       <p>FetchControllerDemo:</p>
       <FetchControllerDemo></FetchControllerDemo>
       <Link href="/swrRequestDemo">swrRequestDemo</Link>
+      <p>Merge tailwindCss Demo:</p>
+      <MergeDemo></MergeDemo>
     </div>
   )
 }
