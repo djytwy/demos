@@ -1,0 +1,69 @@
+
+07.png
+size: 218,109
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 0, 9
+  size: 115, 100
+  orig: 117, 102
+  offset: 1, 1
+  index: -1
+head
+  rotate: false
+  xy: 117, 34
+  size: 60, 75
+  orig: 62, 77
+  offset: 1, 1
+  index: -1
+leg1
+  rotate: false
+  xy: 198, 80
+  size: 20, 29
+  orig: 22, 31
+  offset: 1, 1
+  index: -1
+leg2
+  rotate: false
+  xy: 151, 3
+  size: 19, 29
+  orig: 21, 31
+  offset: 1, 1
+  index: -1
+leg3
+  rotate: false
+  xy: 198, 49
+  size: 19, 29
+  orig: 21, 31
+  offset: 1, 1
+  index: -1
+leg4
+  rotate: false
+  xy: 198, 18
+  size: 19, 29
+  orig: 21, 31
+  offset: 1, 1
+  index: -1
+shadow
+  rotate: true
+  xy: 179, 11
+  size: 98, 17
+  orig: 100, 19
+  offset: 1, 1
+  index: -1
+tale
+  rotate: true
+  xy: 117, 3
+  size: 29, 32
+  orig: 31, 34
+  offset: 1, 1
+  index: -1
+tast
+  rotate: true
+  xy: 198, 0
+  size: 16, 20
+  orig: 18, 22
+  offset: 1, 1
+  index: -1

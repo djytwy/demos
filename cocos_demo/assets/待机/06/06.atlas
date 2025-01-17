@@ -1,0 +1,83 @@
+
+06.png
+size: 251,108
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 0, 4
+  size: 128, 104
+  orig: 130, 106
+  offset: 1, 1
+  index: -1
+ear_L
+  rotate: true
+  xy: 167, 4
+  size: 25, 35
+  orig: 27, 37
+  offset: 1, 1
+  index: -1
+ear_R
+  rotate: true
+  xy: 130, 4
+  size: 25, 35
+  orig: 27, 37
+  offset: 1, 1
+  index: -1
+head
+  rotate: false
+  xy: 130, 50
+  size: 63, 58
+  orig: 65, 60
+  offset: 1, 1
+  index: -1
+leg1
+  rotate: false
+  xy: 204, 0
+  size: 19, 29
+  orig: 21, 31
+  offset: 1, 1
+  index: -1
+leg2
+  rotate: true
+  xy: 195, 58
+  size: 20, 29
+  orig: 22, 31
+  offset: 1, 1
+  index: -1
+leg3
+  rotate: false
+  xy: 231, 79
+  size: 20, 29
+  orig: 22, 31
+  offset: 1, 1
+  index: -1
+leg4
+  rotate: false
+  xy: 225, 0
+  size: 19, 29
+  orig: 21, 31
+  offset: 1, 1
+  index: -1
+shadow
+  rotate: false
+  xy: 130, 31
+  size: 98, 17
+  orig: 100, 19
+  offset: 1, 1
+  index: -1
+tale
+  rotate: false
+  xy: 195, 80
+  size: 34, 28
+  orig: 36, 30
+  offset: 1, 1
+  index: -1
+tast
+  rotate: true
+  xy: 226, 60
+  size: 17, 20
+  orig: 19, 22
+  offset: 1, 1
+  index: -1

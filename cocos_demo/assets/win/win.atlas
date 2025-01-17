@@ -1,0 +1,90 @@
+
+win.png
+size: 487,104
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 231, 12
+  size: 129, 92
+  orig: 131, 94
+  offset: 1, 1
+  index: -1
+ear_L
+  rotate: false
+  xy: 427, 68
+  size: 25, 36
+  orig: 27, 38
+  offset: 1, 1
+  index: -1
+ear_R
+  rotate: true
+  xy: 362, 0
+  size: 25, 35
+  orig: 27, 37
+  offset: 1, 1
+  index: -1
+head
+  rotate: false
+  xy: 362, 47
+  size: 63, 57
+  orig: 65, 59
+  offset: 1, 1
+  index: -1
+leg1
+  rotate: true
+  xy: 427, 47
+  size: 19, 29
+  orig: 21, 31
+  offset: 1, 1
+  index: -1
+leg2
+  rotate: true
+  xy: 399, 5
+  size: 20, 29
+  orig: 22, 31
+  offset: 1, 1
+  index: -1
+leg3
+  rotate: true
+  xy: 430, 5
+  size: 20, 29
+  orig: 22, 31
+  offset: 1, 1
+  index: -1
+leg4
+  rotate: true
+  xy: 458, 55
+  size: 19, 29
+  orig: 21, 31
+  offset: 1, 1
+  index: -1
+shadow
+  rotate: false
+  xy: 362, 27
+  size: 98, 18
+  orig: 100, 20
+  offset: 1, 1
+  index: -1
+tale
+  rotate: false
+  xy: 454, 76
+  size: 33, 28
+  orig: 35, 30
+  offset: 1, 1
+  index: -1
+tast
+  rotate: false
+  xy: 462, 32
+  size: 16, 21
+  orig: 18, 23
+  offset: 1, 1
+  index: -1
+tuo
+  rotate: false
+  xy: 0, 8
+  size: 229, 96
+  orig: 300, 300
+  offset: 18, 95
+  index: -1
