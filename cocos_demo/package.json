@@ -2,7 +2,7 @@
   "name": "test_cocos",
   "uuid": "ebbdcda3-c776-43cb-b621-6b38f76ea9a0",
   "creator": {
-    "version": "3.8.3"
+    "version": "3.8.5"
   },
   "dependencies": {
     "@mysten/sui": "^1.16.1",
